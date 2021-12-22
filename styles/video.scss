@@ -42,7 +42,7 @@
         top: calc(50% - 75px);
     }
     &__play-icon {
-        background-image: url("../assets/img/play_unvisited.png");
+        background-image: url("./assets/img/play_unvisited.png");
         background-repeat: no-repeat;
         margin: 0 auto;
         width: 130px;
@@ -51,7 +51,7 @@
         cursor: pointer;
         transition: all 0.2s;
         &:hover {
-            background-image: url("../assets/img/play_hover.png");
+            background-image: url("./assets/img/play_hover.png");
         }
     }
 }
@@ -95,7 +95,7 @@
         }
         button:before {
             content: "";
-            background-image: url("../assets/svg/play.svg");
+            background-image: url("./assets/svg/play.svg");
             background-repeat: no-repeat;
             width: 30px;
             height: 30px;
@@ -104,11 +104,11 @@
 
         button.play:before {
             content: "";
-            background-image: url("../assets/svg/play.svg");
+            background-image: url("./assets/svg/play.svg");
         }
         button.pause:before {
             content: "";
-            background-image: url("../assets/svg/pause.svg");
+            background-image: url("./assets/svg/pause.svg");
         }
     }
     &__volume {
@@ -130,7 +130,7 @@
         }
         button:before {
             content: "";
-            background-image: url("../assets/svg/volume.svg");
+            background-image: url("./assets/svg/volume.svg");
             background-repeat: no-repeat;
             width: 36px;
             height: 36px;
@@ -139,11 +139,11 @@
 
         button.volume:before {
             content: "";
-            background-image: url("../assets/svg/volume.svg");
+            background-image: url("./assets/svg/volume.svg");
         }
         button.mute:before {
             content: "";
-            background-image: url("../assets/svg/mute.svg");
+            background-image: url("./assets/svg/mute.svg");
         }
     }
 }

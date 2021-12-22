@@ -50,24 +50,24 @@
 [data-page="inst"] {
     background-image: url("../assets/img/inst.png");
     &:hover {
-        background-image: url("../assets/img/inst-hover.png");
+        background-image: url("./assets/img/inst-hover.png");
     }
 }
 [data-page="fb"] {
-    background-image: url("../assets/img/fb.png");
+    background-image: url("./assets/img/fb.png");
     &:hover {
-        background-image: url("../assets/img/fb-hover.png");
+        background-image: url("./assets/img/fb-hover.png");
     }
 }
 [data-page="tw"] {
-    background-image: url("../assets/img/tw.png");
+    background-image: url("./assets/img/tw.png");
     &:hover {
-        background-image: url("../assets/img/tw-hover.png");
+        background-image: url("./assets/img/tw-hover.png");
     }
 }
 [data-page="pint"] {
-    background-image: url("../assets/img/pinterest.png");
+    background-image: url("./assets/img/pinterest.png");
     &:hover {
-        background-image: url("../assets/img/pinterest-hover.png");
+        background-image: url("./assets/img/pinterest-hover.png");
     }
 }

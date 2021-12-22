@@ -1,10 +1,10 @@
 .contacts {
-    background-image: url("../assets/img/contacts.png");
+    background-image: url("./assets/img/contacts.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: 600px;
     @include for-middle-up {
-        background-image: url("../assets/img/contacts-lg.jpg");
+        background-image: url("./assets/img/contacts-lg.jpg");
         height: 700px;
     }
     &__container {

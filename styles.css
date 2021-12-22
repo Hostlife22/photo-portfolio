@@ -195,7 +195,7 @@ button:focus {
   }
 }
 .header__logo {
-  background-image: url("../assets/img/logo.png");
+  background-image: url("./assets/img/logo.png");
   width: 50px;
   height: 50px;
   transition: background-image 0.3s;
@@ -203,7 +203,7 @@ button:focus {
   z-index: 1;
 }
 .header__logo:hover {
-  background-image: url("../assets/img/logo_hover.png");
+  background-image: url("./assets/img/logo_hover.png");
 }
 .header__menu {
   display: flex;
@@ -278,7 +278,7 @@ button:focus {
 
 .hero {
   padding-left: 60px;
-  background-image: url("../assets/img/bg.png");
+  background-image: url("./assets/img/bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   height: 590px;
@@ -290,7 +290,7 @@ button:focus {
   .hero {
     height: 910px;
     max-width: 1440px;
-    background-image: url("../assets/img/bg-lg.png");
+    background-image: url("./assets/img/bg-lg.png");
     padding: 250px 0 0 80px;
   }
 }
@@ -510,7 +510,7 @@ button:focus {
   top: calc(50% - 75px);
 }
 .video__play-icon {
-  background-image: url("../assets/img/play_unvisited.png");
+  background-image: url("./assets/img/play_unvisited.png");
   background-repeat: no-repeat;
   margin: 0 auto;
   width: 130px;
@@ -520,7 +520,7 @@ button:focus {
   transition: all 0.2s;
 }
 .video__play-icon:hover {
-  background-image: url("../assets/img/play_hover.png");
+  background-image: url("./assets/img/play_hover.png");
 }
 
 .controls {
@@ -556,7 +556,7 @@ button:focus {
 }
 .controls__play button:before {
   content: "";
-  background-image: url("../assets/svg/play.svg");
+  background-image: url("./assets/svg/play.svg");
   background-repeat: no-repeat;
   width: 30px;
   height: 30px;
@@ -564,11 +564,11 @@ button:focus {
 }
 .controls__play button.play:before {
   content: "";
-  background-image: url("../assets/svg/play.svg");
+  background-image: url("./assets/svg/play.svg");
 }
 .controls__play button.pause:before {
   content: "";
-  background-image: url("../assets/svg/pause.svg");
+  background-image: url("./assets/svg/pause.svg");
 }
 .controls__volume {
   padding: 10px;
@@ -587,7 +587,7 @@ button:focus {
 }
 .controls__volume button:before {
   content: "";
-  background-image: url("../assets/svg/volume.svg");
+  background-image: url("./assets/svg/volume.svg");
   background-repeat: no-repeat;
   width: 36px;
   height: 36px;
@@ -595,11 +595,11 @@ button:focus {
 }
 .controls__volume button.volume:before {
   content: "";
-  background-image: url("../assets/svg/volume.svg");
+  background-image: url("./assets/svg/volume.svg");
 }
 .controls__volume button.mute:before {
   content: "";
-  background-image: url("../assets/svg/mute.svg");
+  background-image: url("./assets/svg/mute.svg");
 }
 
 input[type=range] {
@@ -707,14 +707,14 @@ input[type=range]::-webkit-slider-thumb {
 }
 
 .contacts {
-  background-image: url("../assets/img/contacts.png");
+  background-image: url("./assets/img/contacts.png");
   background-repeat: no-repeat;
   background-size: cover;
   height: 600px;
 }
 @media screen and (min-width: 769px) {
   .contacts {
-    background-image: url("../assets/img/contacts-lg.jpg");
+    background-image: url("./assets/img/contacts-lg.jpg");
     height: 700px;
   }
 }
@@ -857,28 +857,28 @@ input[type=range]::-webkit-slider-thumb {
   background-image: url("../assets/img/inst.png");
 }
 [data-page=inst]:hover {
-  background-image: url("../assets/img/inst-hover.png");
+  background-image: url("./assets/img/inst-hover.png");
 }
 
 [data-page=fb] {
-  background-image: url("../assets/img/fb.png");
+  background-image: url("./assets/img/fb.png");
 }
 [data-page=fb]:hover {
-  background-image: url("../assets/img/fb-hover.png");
+  background-image: url("./assets/img/fb-hover.png");
 }
 
 [data-page=tw] {
-  background-image: url("../assets/img/tw.png");
+  background-image: url("./assets/img/tw.png");
 }
 [data-page=tw]:hover {
-  background-image: url("../assets/img/tw-hover.png");
+  background-image: url("./assets/img/tw-hover.png");
 }
 
 [data-page=pint] {
-  background-image: url("../assets/img/pinterest.png");
+  background-image: url("./assets/img/pinterest.png");
 }
 [data-page=pint]:hover {
-  background-image: url("../assets/img/pinterest-hover.png");
+  background-image: url("./assets/img/pinterest-hover.png");
 }
 
 /*# sourceMappingURL=styles.css.map */

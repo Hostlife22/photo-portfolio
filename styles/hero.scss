@@ -1,6 +1,6 @@
 .hero {
     padding-left: 60px;
-    background-image: url("../assets/img/bg.png");
+    background-image: url("./assets/img/bg.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: 590px;
@@ -11,7 +11,7 @@
     @include for-middle-up {
         height: 910px;
         max-width: $lg;
-        background-image: url("../assets/img/bg-lg.png");
+        background-image: url("./assets/img/bg-lg.png");
         padding: 250px 0 0 80px;
     }
     &__title {

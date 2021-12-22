@@ -1,0 +1,104 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    padding: 0 64px 0 60px;
+
+    @include for-middle-up {
+        padding: 0 17px 0 20px;
+    }
+
+    &__logo {
+        background-image: url(("../assets/img/logo.png"));
+        width: 50px;
+        height: 50px;
+        transition: background-image 0.3s;
+        cursor: pointer;
+        z-index: 1;
+        &:hover {
+            background-image: url(("../assets/img/logo_hover.png"));
+        }
+    }
+
+    &__menu {
+        display: flex;
+        align-items: center;
+    }
+
+    &__lists {
+        display: none;
+        font-size: 20px;
+        z-index: 1;
+
+        @include for-middle-up {
+            display: flex;
+            margin-right: 32px;
+        }
+    }
+    &__list {
+        a {
+            display: inline-block;
+            line-height: 50px;
+            cursor: pointer;
+        }
+    }
+
+    &__list + &__list {
+        margin-left: 30px;
+    }
+
+    &__languages {
+        font-weight: $weight-bold;
+        line-height: 250%;
+        display: flex;
+        z-index: 1;
+
+        span:nth-child(2) {
+            margin-left: 9px;
+            margin-right: 9px;
+        }
+    }
+
+    &__language {
+        cursor: pointer;
+        &_active {
+            color: $color-beige;
+        }
+    }
+
+    &__btn-menu {
+        margin-left: 23px;
+        cursor: pointer;
+
+        span {
+            display: block;
+            width: 50px;
+            height: 3px;
+            position: relative;
+
+            background: $color-white;
+            border-radius: 3px;
+            z-index: 1;
+
+            transition: background 0.3s;
+            &:first-child {
+                transform-origin: 0% 0%;
+            }
+            &:last-child {
+                transform-origin: 0% 0%;
+            }
+        }
+        span + span {
+            margin-top: 9.5px;
+        }
+
+        &:hover span {
+            background: $color-beige;
+        }
+
+        @include for-middle-up {
+            display: none;
+        }
+    }
+}

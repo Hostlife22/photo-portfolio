@@ -2,6 +2,7 @@ import { initNavigation, changeLanguage } from './changeLanguage.js';
 import { initGallery, renderGallery } from './gallery.js';
 import { initControls } from './player.js';
 import { initEventForm } from './form.js';
+import { scrollAnchor } from './scrollAnchor.js';
 
 document.addEventListener('DOMContentLoaded', () => {
   changeLanguage();
@@ -10,6 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initGallery();
   initControls();
   initEventForm();
+  scrollAnchor();
 });
 
 window.addEventListener('load', () => {

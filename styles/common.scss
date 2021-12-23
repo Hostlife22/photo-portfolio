@@ -4,6 +4,7 @@
     max-width: $lg;
     height: 100%;
     background-color: $color-black;
+    overflow-x: hidden;
 }
 button {
     transition: 0.25s;

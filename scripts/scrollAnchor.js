@@ -1,3 +1,5 @@
+import { checkClassBtn } from './burgerMenu.js';
+
 const navElem = document.querySelector('.header__lists');
 
 const onChangePosition = event => {
@@ -10,6 +12,7 @@ const onChangePosition = event => {
   const blockId = event.target.getAttribute('href').substr(1);
 
   document.getElementById(blockId).scrollIntoView({ behavior: 'smooth', block: 'start' });
+  checkClassBtn();
 };
 
 export const scrollAnchor = () => {

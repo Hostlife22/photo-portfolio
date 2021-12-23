@@ -45,13 +45,8 @@
         }
     }
     &__gallery {
-        @include for-middle-up {
-            // display: flex;
-            // flex-direction: column;
-            // justify-content: center;
-            // flex-wrap: wrap;
-        }
         @include for-large-up {
+            height: 1145px;
             padding: 0 20px;
         }
     }
@@ -73,10 +68,17 @@
         }
     }
 
+    &__img-wrapper {
+        overflow: hidden;
+    }
     &__img {
+        transition: all 0.2s;
+        &:hover {
+            transform: scale(1.1);
+        }
     }
 
-    &__img + &__img {
+    &__img-wrapper + &__img-wrapper {
         margin-top: 25px;
         @include for-large-up {
             margin-top: 0;

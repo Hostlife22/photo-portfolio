@@ -42,6 +42,9 @@
             line-height: 50px;
             cursor: pointer;
         }
+        &:hover {
+            color: $color-beige;
+        }
     }
 
     &__list + &__list {

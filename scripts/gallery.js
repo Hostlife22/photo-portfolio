@@ -15,13 +15,18 @@ const createImageGallery = (photoNumbers, period) => {
   imgContainer.classList.add('portfolio__images');
 
   photoNumbers.map(number => {
+    const container = document.createElement('div');
+    container.classList.add('portfolio__img-wrapper');
+
     const img = document.createElement('img');
 
     img.classList.add('portfolio__img');
     img.setAttribute('alt', `photo ${period}`);
     img.src = `./assets/img/${period}/${number}.jpg`;
 
-    imgContainer.append(img);
+    container.append(img);
+
+    imgContainer.append(container);
   });
 
   return imgContainer;

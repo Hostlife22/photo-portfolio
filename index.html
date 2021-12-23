@@ -116,7 +116,7 @@
               <video
                 class="video__player"
                 src="./assets/video/video.mp4"
-                poster="assets/img/video-player-lg.png"
+                poster="./assets/img/video-player-lg.png"
               ></video>
               <div class="video__controls controls">
                 <div class="controls__bar">
@@ -183,8 +183,20 @@
           <div class="contacts__container">
             <h2 class="contacts__title" data-content="contact-me"></h2>
             <form class="contacts__form">
-              <input type="email" name="email" placeholder="E-mail" class="contacts__field" />
-              <input type="number" name="phone" placeholder="Phone" class="contacts__field" />
+              <input
+                type="email"
+                name="email"
+                placeholder="E-mail"
+                class="contacts__field"
+                required
+              />
+              <input
+                type="number"
+                name="phone"
+                placeholder="Phone"
+                class="contacts__field"
+                required
+              />
               <textarea name="description" placeholder="Message" class="contacts__field"></textarea>
               <button class="contacts__btn btn" data-content="send-message"></button>
             </form>
@@ -209,6 +221,17 @@
           <a href="#" class="footer__icon" data-page="pint"> </a>
         </div>
       </footer>
+    </div>
+    <div class="preloader">
+      <div class="preloader__conteiner">
+        <div class="preloader__ball-point"></div>
+        <div class="preloader__cap"></div>
+        <div class="preloader__cap-base"></div>
+        <div class="preloader__middle"></div>
+        <div class="preloader__eraser"></div>
+      </div>
+      <div class="preloader__line"></div>
+      <h2 class="preloader__title">Page Loading...Please Wait</h2>
     </div>
     <script type="module" src="./scripts/index.js"></script>
   </body>

@@ -4,6 +4,10 @@
 
 Layout supports mobile and desktop versions
 
+<kbd>
+  <img align="right" alt="img" src="6xITv0S.jpeg"  />
+ </kbd>
+
 ### The tech stack is:
 
 - [JavaScript](https://ru.wikipedia.org/wiki/JavaScript)
